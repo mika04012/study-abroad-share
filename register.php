@@ -2,7 +2,7 @@
 
 $dsn = 'mysql:dbname=tb280710db;host=localhost';
 $user = 'tb-280710';
-$password = 'ZmRV7SRvtJ';
+$password = '********';
 
 $pdo = new PDO($dsn, $user, $password,
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING)
